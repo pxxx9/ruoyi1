@@ -12,7 +12,7 @@ import org.springframework.boot.context.metrics.buffering.BufferingApplicationSt
  */
 
 @SpringBootApplication
-
+@MapperScan("org.dromara.course.mapper")
 public class DromaraApplication {
 
     public static void main(String[] args) {
